@@ -11,7 +11,7 @@ class MainWrap extends Component {
     actions: PropTypes.object,
     title: PropTypes.object,
     isLoading: PropTypes.object,
-    cinema: PropTypes.object
+    cinemaList: PropTypes.object
   }
 
   constructor (props) {
@@ -29,7 +29,7 @@ class MainWrap extends Component {
           title={this.props.title}
           loading={this.props.isLoading}
           getCinemaList={this.props.actions.getCinemaList}
-          cinema={this.props.cinema} />
+          cinemaList={this.props.cinemaList} />
       </div>
     )
   }
@@ -39,7 +39,7 @@ const mapStateToProps = state => ({
   filmInfor: state.film.filmInfor,
   title: state.publicState,
   isLoading: state.loading,
-  cinema: state.cinema
+  cinemaList: state.cinemaList
 })
 
 const mapDispatchToProps = dispatch => ({

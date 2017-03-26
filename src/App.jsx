@@ -15,7 +15,7 @@ export default class App extends Component {
     getTitle: PropTypes.func,
     loading: PropTypes.object,
     getCinemaList: PropTypes.func,
-    cinema: PropTypes.object
+    cinemaList: PropTypes.object
   }
 
   constructor (props) {
@@ -35,7 +35,7 @@ export default class App extends Component {
             title: this.props.title,
             loading: this.props.loading,
             getCinemaList: this.props.getCinemaList,
-            cinema: this.props.cinema
+            cinemaList: this.props.cinemaList
           })}
         </div>
         <Footer />

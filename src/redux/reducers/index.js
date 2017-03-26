@@ -4,7 +4,7 @@ import playingMovieList from './playingMovieList'
 import film from './film'
 import publicState from './publicState'
 import loading from './loading'
-import cinema from './cinema'
+import cinemaList from './cinemaList'
 
 export default combineReducers({
   comingMovieList,
@@ -12,5 +12,5 @@ export default combineReducers({
   film,
   publicState,
   loading,
-  cinema
+  cinemaList
 })

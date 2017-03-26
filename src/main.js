@@ -9,7 +9,7 @@ import { browserHistory as history, Router, Route, IndexRedirect } from 'react-r
 import Playing from './components/movie/Playing'
 import Coming from './components/movie/Coming'
 import movie from './containers/movie.jsx'
-import Cinema from './components/cinema/Cinema'
+import CinemaList from './components/cinemaList/CinemaList'
 import Shop from './components/shop/Shop'
 import Me from './components/me/Me'
 import Film from './components/film/film'
@@ -28,7 +28,7 @@ const routes = (
       <Route path='coming' component={Coming} />
     </Route>
     <Route path='film/:id' component={Film} onEnter={scrollTop} />
-    <Route path='cinema' component={Cinema} onEnter={scrollTop} />
+    <Route path='cinema' component={CinemaList} onEnter={scrollTop} />
     <Route path='shop' component={Shop} onEnter={scrollTop} />
     <Route path='me' component={Me} onEnter={scrollTop} />
   </Route>
