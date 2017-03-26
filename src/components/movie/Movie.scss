@@ -1,0 +1,24 @@
+.movie{
+	padding: 0 12px;
+
+	.tab {
+		width: 100%;
+		height: 0.88rem;
+		line-height: 0.88rem;
+		font-size: 0.32rem;
+
+		a {
+			display: inline-block;
+			width: 50%;
+			-webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+			color: #666;			
+			text-align: center;
+		}
+
+		a.cheacked {
+			border-bottom: 2px solid #29cc6d;
+		}
+	}
+}
+

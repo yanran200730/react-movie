@@ -1,0 +1,3 @@
+@mixin font-sizes($number, $important: '!important') {
+  font-size: $number/50 + rem + $important;
+}

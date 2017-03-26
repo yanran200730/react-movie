@@ -1,0 +1,75 @@
+.loading-wrap {
+  margin-top: 1.2rem;
+}
+
+.prev {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  line-height: 0.9rem;
+  height: 0.9rem;
+  box-shadow: 0px 1px 1px #e8e7e7;
+  background-color: #fbfbfb;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  h1 {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #333;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    font-size: 0.32rem;
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+  i {
+    display: inline-block;
+    width: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    cursor: pointer;
+  }
+}
+
+.film-wrap {
+  background-color: #e6e4e4;
+  color: #333;
+  height: 100%;
+  font-size: 0.2rem;
+  padding-bottom: 2rem;
+  font-family: 'Microsoft YaHei', Tahoma, Helvetica, Arial, sans-serif;
+
+  .img>img {
+    width: 100%;
+    transition: all 1.2s ease;
+    opacity: 1;
+  }
+
+  .film-content {
+    h1 {
+      font-size: 0.32rem;
+      font-weight: normal;
+      margin: 0.32rem 0;
+      border-left: 0.32rem solid RGB(228, 200, 156);
+      padding-left: 0.08rem;
+    }
+
+    p {
+      margin: 0.2rem 0.1rem 0.2rem 0.4rem;
+      line-height: 1.8;
+
+      span {
+        padding-right: 0.2rem;
+      }
+    }
+  }
+}

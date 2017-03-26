@@ -1,0 +1,64 @@
+.movie-list {
+  ul>a>li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.3rem 0.2rem 0.3rem 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .films-img img {
+    max-width: 1.3rem;
+    height: 1.8rem;
+  }
+
+  .films-content {
+    flex: 1;
+    margin-left: 0.3rem;
+    font-size: 0.24rem;
+    color: #8e8e8e;
+
+    .date {
+      color: #ffb375;
+
+      .weekDay {
+        padding-left: 0.32rem;
+      }
+    } 
+
+    .films-name {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 14px;
+      margin-top: 0.18rem;
+
+      h3 {
+        flex: 1;
+        color: #504f4f;
+        font-size: 0.32rem;
+        font-weight: normal;
+      }
+
+      span {
+        color: #29cc6d;
+        font-size: 0.32rem;
+      }
+    }
+
+    .films-count {
+      .active {
+        color: #8aa2bf;
+      }
+      .count {
+        padding-right: 0.32rem;
+      }
+    }
+
+    p {
+      margin: 0.2rem 0;
+    }
+  }
+}

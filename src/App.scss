@@ -1,0 +1,44 @@
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 0.28rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  padding-bottom: 1.06rem;
+
+  .App {
+    height: 100%;
+    background-color: #fff;
+
+    .body {
+      max-width: 12.8rem;
+      margin: 0.9rem auto 0 auto;
+    }
+  }
+
+  p,h1,h2,h3,h4 {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #666;
+  }
+
+  // 路由激活样式 
+  a.active {
+    color: #29cc6d!important;
+  }
+
+  ul,ol,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+
+
+

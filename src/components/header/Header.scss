@@ -1,0 +1,38 @@
+@import '../../assets/style/mixin.scss';
+
+#header {
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1000;
+
+
+  .wrap {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.9rem;
+    height: 0.9rem;
+    text-align: center;
+    box-shadow: 0px 1px 1px #e8e7e7;
+    background-color: #fbfbfb;
+
+    a {
+      display: inline-block;
+      width: 1.4rem;
+
+      i {
+        @include font-sizes(20);
+      }
+    }
+
+    & > span {
+      @include font-sizes(16, '');
+      color:#151414;
+    }
+  }
+} 

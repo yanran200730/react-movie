@@ -1,0 +1,68 @@
+.cinemaList {
+  .cinemas {
+    margin-bottom: 0.02rem;
+    h1 {
+      height: 0.8rem;
+      line-height: 0.8rem;
+      padding-left: 0.32rem;
+      color: #636363;
+      font-weight: normal;
+      font-size: 0.28rem;
+      cursor: pointer;
+      background-color: #e1e1e1;
+    }
+  }
+
+  ul {
+    cursor: pointer;
+
+    li {
+      padding: 0.2rem 0 0.24rem 0.32rem;
+      border-bottom: 1px solid #e1e1e1;
+      font-size: 0.24rem;
+
+      h2 {
+        font-size: 0.32rem;
+        font-weight: normal;
+        color: #333;
+        margin-bottom: 0.14rem;
+      }
+
+      p.content {
+        color: #8e8e8e;
+        font-size: 0.24rem !important;
+        line-height: 1.8;
+      }
+
+      .labels {
+        font-size: 0.2rem;
+        margin-bottom: 0.1rem;
+
+        span {
+          display: inline-block;
+          border-radius: 0.06rem;
+          padding: 0 0.05rem;
+          margin: 0 0.05rem;
+          font-style: normal;
+          color: #fff;
+          height: 0.3rem;
+          line-height: 0.3rem;
+        }
+
+        span.tip1 {
+          background-color: #51add0;
+        }
+        span.tip2 {
+          background-color: #ff7674;
+        }
+        span.tip3 {
+          background-color: #ff9658;
+        }
+        span.hide {
+          display: none;
+        }
+
+      }
+    }
+  }
+}
